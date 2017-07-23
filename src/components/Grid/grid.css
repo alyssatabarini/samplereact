@@ -1,0 +1,22 @@
+.grid{
+    height: 115px;
+     width: 500px;
+}
+
+.gridHeader{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-right: 20px;
+}
+
+
+
+
+.gridSpaceTop{
+   
+    height: 20px;
+    margin: 20px;
+    background-color:#d7dae0;
+
+}

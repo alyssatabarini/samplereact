@@ -1,0 +1,30 @@
+.topheader{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    background-color: #4286f4; 
+    color: white; 
+    
+}
+
+.line1{
+    height: 10px;
+    widows: 2px;
+    background-color: black;
+}
+
+.title{
+margin: 30px; 
+}
+
+.company{
+margin: 30px; 
+size: 20px;
+}
+
+
+.user{
+margin: 20px;
+margin-left: 500px;
+float: left;
+}

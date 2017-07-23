@@ -1,0 +1,28 @@
+.navbar-default{
+    background-color: #4286f4; 
+    color: white; 
+    border-color: #4286f4; 
+    border-radius: 0px;
+}
+
+.nav {
+    margin: 10px;
+   
+}
+
+.link {
+    margin-right: 10px;
+    color: black;
+    padding-bottom: 20px;
+    color: white; 
+}
+
+.link:hover, .link:focus {
+    color: gray;
+    text-decoration: none;
+}
+
+.link-active {
+    border-bottom: 10px solid white;
+    border-width: thick;
+}
