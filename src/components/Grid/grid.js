@@ -2,6 +2,7 @@ import React from 'react';
 import {AgGridReact} from 'ag-grid-react'; 
 import './grid.css';
 import GenericGrid from '../GenericGrid/ggrid';
+import Filter from '../Filter/filter';
 
 class Grid extends React.Component {
     constructor(props) {
@@ -9,7 +10,8 @@ class Grid extends React.Component {
 
         this.state = {
             columnDefs: this.createColumnDefs(),
-            rowData: this.createRowData()
+            rowData: this.createRowData(),
+            count: 3,
         }
     }
 
@@ -63,27 +65,34 @@ class Grid extends React.Component {
 
 
         return (
-            <div> 
-                <div className = "gridHeader">
-                    <h1> Obligations </h1>
-                    <h1> 20,000 </h1>
-                    </div> 
+            <div className="obligationScreen"> 
 
-                <div className="gridSpaceTop"/> 
-                <div classNam="gridArea">
-                    <div className="gridSpaceLeft"/> 
-                    <GenericGrid
-                    // properties
-                    columnDefs={this.state.columnDefs}
-                    rowData={this.state.rowData}
-                    onGridReady={this.onGridReady}
-                    enableSorting={true}
-                    enableFilter={true}
-                    style={containerStyle}
-                >
-                </GenericGrid>
+                <div className="filterArea">
+                <Filter/>
                 </div>
-                </div> 
+
+                <div className="obligationArea">
+                
+                    <div className="gridHeader">
+                        <h1 className="obName"> Obligations </h1>
+                        <h1 className="count">{this.state.count}</h1>
+                        </div> 
+
+                    
+                    <div className="gridArea">
+                        <GenericGrid
+                        // properties
+                        columnDefs={this.state.columnDefs}
+                        rowData={this.state.rowData}
+                        onGridReady={this.onGridReady}
+                        enableSorting={true}
+                        enableFilter={true}
+                        style={containerStyle}
+                    >
+                    </GenericGrid>
+                      </div>
+                </div>
+             </div> 
         )
     }
 };

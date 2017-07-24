@@ -3,6 +3,7 @@ import { Route, Redirect, Switch} from 'react-router';
 import Obligations from '../Obligations/obligations';
 import ElaNav from '../Nav/nav';
 import Header from '../Header/header';
+import Filter from '../Filter/filter';
 
 const App = () => (
         <div> 

@@ -1,3 +1,13 @@
+.obligationScreen {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.obligationArea {
+    width: 100%; 
+    background-color: #E4E7EF; 
+}
 .grid{
     height: 115px;
      width: 500px;
@@ -6,11 +16,21 @@
 .gridHeader{
     display: flex;
     flex-direction: row;
-    margin: 20px;
-    margin-right: 20px;
+    /* margin: 20px;
+    margin-right: 20px; */
+    background-color: white;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 
 
+.gridArea {
+   
+    margin: auto;
+    margin-top:30px;
+    width: 1000px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background-color: white;
+}
 
 
 .gridSpaceTop{
@@ -19,4 +39,14 @@
     margin: 20px;
     background-color:#d7dae0;
 
+}
+
+
+.obName {
+ margin: 20px;
+}
+
+.count{
+    color: #E1E1E1; 
+    margin: 20px;
 }
