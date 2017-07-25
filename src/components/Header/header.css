@@ -24,7 +24,8 @@ size: 20px;
 
 
 .user{
-margin: 20px;
-margin-left: 500px;
+margin-top: 40px;
+    /* margin: 20px; */
+margin-left: 600px;
 float: left;
 }
