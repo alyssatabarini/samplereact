@@ -2,4 +2,32 @@
     height: 1000px;
     width: 200px;
     background-color: #393939;
+    direction: flex;
+    flex-direction: row;
+
+}
+
+.filterArea1 {
+    widows: 200px;
+    height: 100px;
+    border: 3px; 
+    background: lightgray;
+}
+
+.filterArea2 {
+    widows: 200px;
+    height: 40px;
+    border: 3px; 
+    background: grey;
+    border-style: solid;
+    border-color: #0000ff;
+}
+
+.filterArea3 {
+    widows: 200px;
+    height: 40px;
+    border: 3px; 
+    background: grey;
+    border-style: solid;
+    border-color:  #0000ff;
 }
