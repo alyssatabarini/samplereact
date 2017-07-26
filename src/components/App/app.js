@@ -1,6 +1,7 @@
 import React from 'react';
 import { Route, Redirect, Switch} from 'react-router';
 import Obligations from '../Obligations/obligations';
+import Sources from '../Sources/sources';
 import ElaNav from '../Nav/nav';
 import Header from '../Header/header';
 import Filter from '../Filter/filter';
@@ -10,8 +11,8 @@ const App = () => (
             <Header/>
             <ElaNav />
             <Switch> 
-                <Route exact path='/sources' component={Obligations} />
                 <Route exact path='/obligations' component={Obligations} />
+                <Route exact path='/sources' component={Sources} />
                 <Route exact path='/' render={() => <Redirect to="/obligations" />} />
             </Switch> 
         </div>

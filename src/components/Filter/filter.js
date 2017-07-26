@@ -5,32 +5,37 @@ class Filter extends React.Component {
     constructor(props) {
         super(props);
 
-        this.state = {
-            name: 
-            filterOptions: 
-            filterOn:
-        }
+        // this.state = {
+        //     name: 
+        //     filterOptions: 
+        //     filterOn:
+        // }
 
 
         // this.rows = //json data
         // this.state = {
         //     filteredDataList: this.rows
 
-        createFilterNames() {
-        return [
-            {headerName: "Obligation ID", field: "id"},
-            {headerName: "Obligation name", field: "name"},
-            {headerName: "AORO", field: "aoro"}
-             ];
-         }
+        // createFilterNames() {
+        // return [
+        //     {headerName: "Obligation ID", field: "id"},
+        //     {headerName: "Obligation name", field: "name"},
+        //     {headerName: "AORO", field: "aoro"}
+        //      ];
+        //  }
         
-        createFiltersOptions() {
-        return [
-            {headerName: "Obligation ID", field: "id"},
-            {headerName: "Obligation name", field: "name"},
-            {headerName: "AORO", field: "aoro"}
-             ];
-         }
+        // createFiltersOptions() {
+        // return [
+        //     {headerName: "Obligation ID", field: "id"},
+        //     {headerName: "Obligation name", field: "name"},
+        //     {headerName: "AORO", field: "aoro"}
+        //      ];
+        //  }
+
+        //  onClearFilters() {
+        // // all filters removed
+        // this.setState({filters: {} });
+ 
     }
 
 
