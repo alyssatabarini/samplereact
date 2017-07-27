@@ -12,6 +12,7 @@
     height: 100px;
     border: 3px; 
     background: lightgray;
+    padding: 20px;
 }
 
 .filterArea2 {
@@ -20,7 +21,7 @@
     border: 3px; 
     background: grey;
     border-style: solid;
-    border-color: #0000ff;
+    padding: 20px;
 }
 
 .filterArea3 {
@@ -29,5 +30,5 @@
     border: 3px; 
     background: grey;
     border-style: solid;
-    border-color:  #0000ff;
+    padding: 20px;
 }
