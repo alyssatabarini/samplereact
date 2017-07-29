@@ -3,6 +3,7 @@ import {AgGridReact} from 'ag-grid-react';
 import './grid.css';
 import GenericGrid from '../GenericGrid/ggrid';
 import Filter from '../Filter/filter';
+import ModalExample from '../Modal/modal';
 
 class Grid extends React.Component {
     constructor(props) {
@@ -90,6 +91,7 @@ class Grid extends React.Component {
                         style={containerStyle}
                     >
                     </GenericGrid>
+                    <ModalExample/>
                       </div>
                 </div>
              </div> 
