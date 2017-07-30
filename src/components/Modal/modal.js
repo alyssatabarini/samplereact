@@ -1,5 +1,6 @@
 import React from 'react'; 
 import Modal from 'react-modal';
+import './modal.css';
 
 
 
@@ -35,6 +36,9 @@ class ModalExample extends React.Component {
             <Modal
                 isOpen={this.state.isOpen}
                 >
+                <div className="ModalHeader">
+                <h1> This is a modal </h1>
+                </div>
 
                 <button onClick={this.closeModal}>close</button>
             </Modal>
